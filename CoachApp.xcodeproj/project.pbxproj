@@ -3,20 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CAB0870B1949CDB830B1BF4 /* Pods_CoachAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8DE0FBFF438527B0483B30 /* Pods_CoachAppTests.framework */; };
+		33E15AF26011B2C1860208DB /* Pods_CoachApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5280D2E161425C1D961EB8 /* Pods_CoachApp.framework */; };
+		509379C1ADE1BCB87449BDF5 /* Pods_CoachApp_CoachAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7D3984A9647CCA22781113 /* Pods_CoachApp_CoachAppUITests.framework */; };
+		84065B6F292E5379005BE255 /* COLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84065B6E292E5379005BE255 /* COLoginVC.swift */; };
+		841DFABE292DFDF400EA8435 /* COWelcomeScreenVC+Collectionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DFABD292DFDF400EA8435 /* COWelcomeScreenVC+Collectionview.swift */; };
+		841DFAC0292DFE3400EA8435 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DFABF292DFE3400EA8435 /* UIViewExtension.swift */; };
+		841DFAC6292E001500EA8435 /* COChooseRoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DFAC5292E001500EA8435 /* COChooseRoleVC.swift */; };
+		84476153292B8FA7003E4559 /* COBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84476152292B8FA7003E4559 /* COBaseVC.swift */; };
+		84476155292B8FF1003E4559 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84476154292B8FF1003E4559 /* SwiftyJSON.swift */; };
+		84476157292B9055003E4559 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84476156292B9055003E4559 /* UIDevice.swift */; };
+		8447615E292B94FE003E4559 /* ImageEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447615D292B94FE003E4559 /* ImageEnum.swift */; };
+		84476161292B956E003E4559 /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84476160292B956E003E4559 /* Colours.xcassets */; };
+		84476163292B957D003E4559 /* ColourEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84476162292B957D003E4559 /* ColourEnum.swift */; };
+		84476167292BA701003E4559 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84476166292BA701003E4559 /* CommonFunctions.swift */; };
+		8447616A292BA7B7003E4559 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84476169292BA7B7003E4559 /* UICollectionView+Ext.swift */; };
+		84476171292BA949003E4559 /* COWelcomeScreenCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447616F292BA949003E4559 /* COWelcomeScreenCC.swift */; };
+		84476172292BA949003E4559 /* COWelcomeScreenCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84476170292BA949003E4559 /* COWelcomeScreenCC.xib */; };
+		844BA07C29349629006D4DA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844BA07B29349629006D4DA2 /* GoogleService-Info.plist */; };
 		847AD4F5292B8B470078AAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD4F4292B8B470078AAD9 /* AppDelegate.swift */; };
 		847AD4F7292B8B470078AAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD4F6292B8B470078AAD9 /* SceneDelegate.swift */; };
-		847AD4F9292B8B470078AAD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD4F8292B8B470078AAD9 /* ViewController.swift */; };
-		847AD4FC292B8B470078AAD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AD4FA292B8B470078AAD9 /* Main.storyboard */; };
+		847AD4F9292B8B470078AAD9 /* COWelcomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD4F8292B8B470078AAD9 /* COWelcomeScreenVC.swift */; };
+		847AD4FC292B8B470078AAD9 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AD4FA292B8B470078AAD9 /* Onboarding.storyboard */; };
 		847AD4FF292B8B470078AAD9 /* CoachApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847AD4FD292B8B470078AAD9 /* CoachApp.xcdatamodeld */; };
 		847AD501292B8B480078AAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847AD500292B8B480078AAD9 /* Assets.xcassets */; };
 		847AD504292B8B480078AAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AD502292B8B480078AAD9 /* LaunchScreen.storyboard */; };
 		847AD50F292B8B480078AAD9 /* CoachAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD50E292B8B480078AAD9 /* CoachAppTests.swift */; };
 		847AD519292B8B480078AAD9 /* CoachAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD518292B8B480078AAD9 /* CoachAppUITests.swift */; };
 		847AD51B292B8B480078AAD9 /* CoachAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD51A292B8B480078AAD9 /* CoachAppUITestsLaunchTests.swift */; };
+		847AD535292B8D4C0078AAD9 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD52E292B8D4C0078AAD9 /* WebServices.swift */; };
+		847AD536292B8D4C0078AAD9 /* Webservices+EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD52F292B8D4C0078AAD9 /* Webservices+EndPoints.swift */; };
+		847AD537292B8D4C0078AAD9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD530292B8D4C0078AAD9 /* NetworkManager.swift */; };
+		847AD53B292B8F070078AAD9 /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD539292B8F070078AAD9 /* NetworkConstant.swift */; };
+		847AD53C292B8F070078AAD9 /* COStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AD53A292B8F070078AAD9 /* COStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +60,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D8DE0FBFF438527B0483B30 /* Pods_CoachAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		140A7D458D4B8E228D5FFBAF /* Pods-CoachApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachApp.debug.xcconfig"; path = "Target Support Files/Pods-CoachApp/Pods-CoachApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2AAD0DF3A5FD1A5B8F99B8AB /* Pods-CoachApp-CoachAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachApp-CoachAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB5EB50B4E88391C209BA22 /* Pods-CoachAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CoachAppTests/Pods-CoachAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55424B1672FFF30FD2936D14 /* Pods-CoachApp-CoachAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachApp-CoachAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84065B6E292E5379005BE255 /* COLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLoginVC.swift; sourceTree = "<group>"; };
+		841DFABD292DFDF400EA8435 /* COWelcomeScreenVC+Collectionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "COWelcomeScreenVC+Collectionview.swift"; sourceTree = "<group>"; };
+		841DFABF292DFE3400EA8435 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		841DFAC5292E001500EA8435 /* COChooseRoleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COChooseRoleVC.swift; sourceTree = "<group>"; };
+		84476152292B8FA7003E4559 /* COBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBaseVC.swift; sourceTree = "<group>"; };
+		84476154292B8FF1003E4559 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		84476156292B9055003E4559 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		8447615D292B94FE003E4559 /* ImageEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEnum.swift; sourceTree = "<group>"; };
+		84476160292B956E003E4559 /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
+		84476162292B957D003E4559 /* ColourEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourEnum.swift; sourceTree = "<group>"; };
+		84476166292BA701003E4559 /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		84476169292BA7B7003E4559 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		8447616F292BA949003E4559 /* COWelcomeScreenCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COWelcomeScreenCC.swift; sourceTree = "<group>"; };
+		84476170292BA949003E4559 /* COWelcomeScreenCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COWelcomeScreenCC.xib; sourceTree = "<group>"; };
+		844BA07B29349629006D4DA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		847AD4F1292B8B470078AAD9 /* CoachApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoachApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AD4F4292B8B470078AAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847AD4F6292B8B470078AAD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		847AD4F8292B8B470078AAD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		847AD4FB292B8B470078AAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847AD4F8292B8B470078AAD9 /* COWelcomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COWelcomeScreenVC.swift; sourceTree = "<group>"; };
+		847AD4FB292B8B470078AAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Onboarding.storyboard; sourceTree = "<group>"; };
 		847AD4FE292B8B470078AAD9 /* CoachApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoachApp.xcdatamodel; sourceTree = "<group>"; };
 		847AD500292B8B480078AAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847AD503292B8B480078AAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +94,15 @@
 		847AD514292B8B480078AAD9 /* CoachAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoachAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AD518292B8B480078AAD9 /* CoachAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachAppUITests.swift; sourceTree = "<group>"; };
 		847AD51A292B8B480078AAD9 /* CoachAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		847AD52E292B8D4C0078AAD9 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		847AD52F292B8D4C0078AAD9 /* Webservices+EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Webservices+EndPoints.swift"; sourceTree = "<group>"; };
+		847AD530292B8D4C0078AAD9 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		847AD539292B8F070078AAD9 /* NetworkConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		847AD53A292B8F070078AAD9 /* COStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COStoryboard.swift; sourceTree = "<group>"; };
+		8C7D3984A9647CCA22781113 /* Pods_CoachApp_CoachAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachApp_CoachAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3190D6A275BF755B171CEC3 /* Pods-CoachAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachAppTests.release.xcconfig"; path = "Target Support Files/Pods-CoachAppTests/Pods-CoachAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA5280D2E161425C1D961EB8 /* Pods_CoachApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F914A3B052B71D2F0BE651A6 /* Pods-CoachApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachApp.release.xcconfig"; path = "Target Support Files/Pods-CoachApp/Pods-CoachApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E15AF26011B2C1860208DB /* Pods_CoachApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAB0870B1949CDB830B1BF4 /* Pods_CoachAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +126,153 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509379C1ADE1BCB87449BDF5 /* Pods_CoachApp_CoachAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B571F297D4E57C069E8E7C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				140A7D458D4B8E228D5FFBAF /* Pods-CoachApp.debug.xcconfig */,
+				F914A3B052B71D2F0BE651A6 /* Pods-CoachApp.release.xcconfig */,
+				2AAD0DF3A5FD1A5B8F99B8AB /* Pods-CoachApp-CoachAppUITests.debug.xcconfig */,
+				55424B1672FFF30FD2936D14 /* Pods-CoachApp-CoachAppUITests.release.xcconfig */,
+				2AB5EB50B4E88391C209BA22 /* Pods-CoachAppTests.debug.xcconfig */,
+				C3190D6A275BF755B171CEC3 /* Pods-CoachAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B910C0AD5B8DC50937020C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA5280D2E161425C1D961EB8 /* Pods_CoachApp.framework */,
+				8C7D3984A9647CCA22781113 /* Pods_CoachApp_CoachAppUITests.framework */,
+				0D8DE0FBFF438527B0483B30 /* Pods_CoachAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841DFAC1292DFF8500EA8435 /* Welcome Screen */ = {
+			isa = PBXGroup;
+			children = (
+				841DFAC4292DFFC600EA8435 /* View Controller */,
+				841DFAC3292DFFBD00EA8435 /* Xib */,
+			);
+			path = "Welcome Screen";
+			sourceTree = "<group>";
+		};
+		841DFAC2292DFFA900EA8435 /* PreLogin */ = {
+			isa = PBXGroup;
+			children = (
+				841DFAC1292DFF8500EA8435 /* Welcome Screen */,
+				841DFAC5292E001500EA8435 /* COChooseRoleVC.swift */,
+				84065B6E292E5379005BE255 /* COLoginVC.swift */,
+			);
+			path = PreLogin;
+			sourceTree = "<group>";
+		};
+		841DFAC3292DFFBD00EA8435 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				8447616F292BA949003E4559 /* COWelcomeScreenCC.swift */,
+				84476170292BA949003E4559 /* COWelcomeScreenCC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		841DFAC4292DFFC600EA8435 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847AD4F8292B8B470078AAD9 /* COWelcomeScreenVC.swift */,
+				841DFABD292DFDF400EA8435 /* COWelcomeScreenVC+Collectionview.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84476158292B90BB003E4559 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84476154292B8FF1003E4559 /* SwiftyJSON.swift */,
+				84476156292B9055003E4559 /* UIDevice.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		84476159292B9171003E4559 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				847AD4F4292B8B470078AAD9 /* AppDelegate.swift */,
+				847AD4F6292B8B470078AAD9 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		8447615A292B927E003E4559 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				847AD4FA292B8B470078AAD9 /* Onboarding.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8447615B292B92A9003E4559 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8447615F292B9512003E4559 /* Images */,
+				84476164292B9583003E4559 /* Colour */,
+				84476165292B95A7003E4559 /* LaunchScreen */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8447615C292B92D1003E4559 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				841DFAC2292DFFA900EA8435 /* PreLogin */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8447615F292B9512003E4559 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8447615D292B94FE003E4559 /* ImageEnum.swift */,
+				847AD500292B8B480078AAD9 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		84476164292B9583003E4559 /* Colour */ = {
+			isa = PBXGroup;
+			children = (
+				84476162292B957D003E4559 /* ColourEnum.swift */,
+				84476160292B956E003E4559 /* Colours.xcassets */,
+			);
+			path = Colour;
+			sourceTree = "<group>";
+		};
+		84476165292B95A7003E4559 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				847AD502292B8B480078AAD9 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		84476168292BA776003E4559 /* Common Module */ = {
+			isa = PBXGroup;
+			children = (
+				84476166292BA701003E4559 /* CommonFunctions.swift */,
+				84476169292BA7B7003E4559 /* UICollectionView+Ext.swift */,
+				841DFABF292DFE3400EA8435 /* UIViewExtension.swift */,
+			);
+			path = "Common Module";
+			sourceTree = "<group>";
+		};
 		847AD4E8292B8B470078AAD9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +280,8 @@
 				847AD50D292B8B480078AAD9 /* CoachAppTests */,
 				847AD517292B8B480078AAD9 /* CoachAppUITests */,
 				847AD4F2292B8B470078AAD9 /* Products */,
+				5B571F297D4E57C069E8E7C8 /* Pods */,
+				7B910C0AD5B8DC50937020C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +298,16 @@
 		847AD4F3292B8B470078AAD9 /* CoachApp */ = {
 			isa = PBXGroup;
 			children = (
-				847AD4F4292B8B470078AAD9 /* AppDelegate.swift */,
-				847AD4F6292B8B470078AAD9 /* SceneDelegate.swift */,
-				847AD4F8292B8B470078AAD9 /* ViewController.swift */,
-				847AD4FA292B8B470078AAD9 /* Main.storyboard */,
-				847AD500292B8B480078AAD9 /* Assets.xcassets */,
-				847AD502292B8B480078AAD9 /* LaunchScreen.storyboard */,
+				84476159292B9171003E4559 /* Support */,
+				847AD527292B8D4C0078AAD9 /* AppController */,
+				8447615C292B92D1003E4559 /* Modules */,
+				84476168292BA776003E4559 /* Common Module */,
+				8447615A292B927E003E4559 /* Storyboards */,
+				8447615B292B92A9003E4559 /* Resources */,
+				84476158292B90BB003E4559 /* Helper */,
+				847AD538292B8F070078AAD9 /* Apputilits */,
 				847AD505292B8B480078AAD9 /* Info.plist */,
+				844BA07B29349629006D4DA2 /* GoogleService-Info.plist */,
 				847AD4FD292B8B470078AAD9 /* CoachApp.xcdatamodeld */,
 			);
 			path = CoachApp;
@@ -130,6 +330,42 @@
 			path = CoachAppUITests;
 			sourceTree = "<group>";
 		};
+		847AD527292B8D4C0078AAD9 /* AppController */ = {
+			isa = PBXGroup;
+			children = (
+				847AD528292B8D4C0078AAD9 /* RestAPIController */,
+			);
+			path = AppController;
+			sourceTree = "<group>";
+		};
+		847AD528292B8D4C0078AAD9 /* RestAPIController */ = {
+			isa = PBXGroup;
+			children = (
+				847AD529292B8D4C0078AAD9 /* WebServices */,
+				847AD52F292B8D4C0078AAD9 /* Webservices+EndPoints.swift */,
+				847AD530292B8D4C0078AAD9 /* NetworkManager.swift */,
+			);
+			path = RestAPIController;
+			sourceTree = "<group>";
+		};
+		847AD529292B8D4C0078AAD9 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				847AD52E292B8D4C0078AAD9 /* WebServices.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		847AD538292B8F070078AAD9 /* Apputilits */ = {
+			isa = PBXGroup;
+			children = (
+				847AD539292B8F070078AAD9 /* NetworkConstant.swift */,
+				84476152292B8FA7003E4559 /* COBaseVC.swift */,
+				847AD53A292B8F070078AAD9 /* COStoryboard.swift */,
+			);
+			path = Apputilits;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +373,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847AD51E292B8B480078AAD9 /* Build configuration list for PBXNativeTarget "CoachApp" */;
 			buildPhases = (
+				1FFC5170196165FF6A01BC41 /* [CP] Check Pods Manifest.lock */,
 				847AD4ED292B8B470078AAD9 /* Sources */,
 				847AD4EE292B8B470078AAD9 /* Frameworks */,
 				847AD4EF292B8B470078AAD9 /* Resources */,
+				0F002C1FB5D771F881A795B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +392,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847AD521292B8B480078AAD9 /* Build configuration list for PBXNativeTarget "CoachAppTests" */;
 			buildPhases = (
+				11C8EDC1C79BD8A4EB233438 /* [CP] Check Pods Manifest.lock */,
 				847AD506292B8B480078AAD9 /* Sources */,
 				847AD507292B8B480078AAD9 /* Frameworks */,
 				847AD508292B8B480078AAD9 /* Resources */,
@@ -172,9 +411,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847AD524292B8B480078AAD9 /* Build configuration list for PBXNativeTarget "CoachAppUITests" */;
 			buildPhases = (
+				FBCB18C7D633B0852A57AA0A /* [CP] Check Pods Manifest.lock */,
 				847AD510292B8B480078AAD9 /* Sources */,
 				847AD511292B8B480078AAD9 /* Frameworks */,
 				847AD512292B8B480078AAD9 /* Resources */,
+				1E3382984F865BAD273E412C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,7 +451,7 @@
 				};
 			};
 			buildConfigurationList = 847AD4EC292B8B470078AAD9 /* Build configuration list for PBXProject "CoachApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -235,8 +476,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				847AD504292B8B480078AAD9 /* LaunchScreen.storyboard in Resources */,
+				84476172292BA949003E4559 /* COWelcomeScreenCC.xib in Resources */,
 				847AD501292B8B480078AAD9 /* Assets.xcassets in Resources */,
-				847AD4FC292B8B470078AAD9 /* Main.storyboard in Resources */,
+				847AD4FC292B8B470078AAD9 /* Onboarding.storyboard in Resources */,
+				84476161292B956E003E4559 /* Colours.xcassets in Resources */,
+				844BA07C29349629006D4DA2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +500,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F002C1FB5D771F881A795B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachApp/Pods-CoachApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachApp/Pods-CoachApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoachApp/Pods-CoachApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11C8EDC1C79BD8A4EB233438 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoachAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E3382984F865BAD273E412C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FFC5170196165FF6A01BC41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoachApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBCB18C7D633B0852A57AA0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoachApp-CoachAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		847AD4ED292B8B470078AAD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				847AD4FF292B8B470078AAD9 /* CoachApp.xcdatamodeld in Sources */,
-				847AD4F9292B8B470078AAD9 /* ViewController.swift in Sources */,
+				84476153292B8FA7003E4559 /* COBaseVC.swift in Sources */,
+				84065B6F292E5379005BE255 /* COLoginVC.swift in Sources */,
+				841DFABE292DFDF400EA8435 /* COWelcomeScreenVC+Collectionview.swift in Sources */,
+				84476171292BA949003E4559 /* COWelcomeScreenCC.swift in Sources */,
+				847AD536292B8D4C0078AAD9 /* Webservices+EndPoints.swift in Sources */,
+				84476155292B8FF1003E4559 /* SwiftyJSON.swift in Sources */,
+				847AD537292B8D4C0078AAD9 /* NetworkManager.swift in Sources */,
+				84476167292BA701003E4559 /* CommonFunctions.swift in Sources */,
+				8447616A292BA7B7003E4559 /* UICollectionView+Ext.swift in Sources */,
+				847AD53C292B8F070078AAD9 /* COStoryboard.swift in Sources */,
+				84476163292B957D003E4559 /* ColourEnum.swift in Sources */,
+				847AD4F9292B8B470078AAD9 /* COWelcomeScreenVC.swift in Sources */,
+				84476157292B9055003E4559 /* UIDevice.swift in Sources */,
+				841DFAC6292E001500EA8435 /* COChooseRoleVC.swift in Sources */,
+				841DFAC0292DFE3400EA8435 /* UIViewExtension.swift in Sources */,
+				847AD53B292B8F070078AAD9 /* NetworkConstant.swift in Sources */,
 				847AD4F5292B8B470078AAD9 /* AppDelegate.swift in Sources */,
 				847AD4F7292B8B470078AAD9 /* SceneDelegate.swift in Sources */,
+				8447615E292B94FE003E4559 /* ImageEnum.swift in Sources */,
+				847AD535292B8D4C0078AAD9 /* WebServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +665,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		847AD4FA292B8B470078AAD9 /* Main.storyboard */ = {
+		847AD4FA292B8B470078AAD9 /* Onboarding.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				847AD4FB292B8B470078AAD9 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Onboarding.storyboard;
 			sourceTree = "<group>";
 		};
 		847AD502292B8B480078AAD9 /* LaunchScreen.storyboard */ = {
@@ -436,6 +800,7 @@
 		};
 		847AD51F292B8B480078AAD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140A7D458D4B8E228D5FFBAF /* Pods-CoachApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +811,7 @@
 				INFOPLIST_FILE = CoachApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Onboarding;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +829,7 @@
 		};
 		847AD520292B8B480078AAD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F914A3B052B71D2F0BE651A6 /* Pods-CoachApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,7 +840,7 @@
 				INFOPLIST_FILE = CoachApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Onboarding;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,6 +858,7 @@
 		};
 		847AD522292B8B480078AAD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB5EB50B4E88391C209BA22 /* Pods-CoachAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +879,7 @@
 		};
 		847AD523292B8B480078AAD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3190D6A275BF755B171CEC3 /* Pods-CoachAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +900,7 @@
 		};
 		847AD525292B8B480078AAD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AAD0DF3A5FD1A5B8F99B8AB /* Pods-CoachApp-CoachAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +919,7 @@
 		};
 		847AD526292B8B480078AAD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55424B1672FFF30FD2936D14 /* Pods-CoachApp-CoachAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
